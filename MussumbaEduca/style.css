@@ -1,0 +1,198 @@
+  /* Espaçamento para navbar fixa */
+  body {
+    padding-top: 56px;
+    font-family: 'Nunito', sans-serif;
+    color: #333;
+  }
+  
+  /* Cores da marca */
+  :root {
+    --primary-color: #4285F4;
+    --secondary-color: #34A853;
+    --accent-color: #FBBC05;
+    --dark-color: #333333;
+    --light-color: #F8F9FA;
+  }
+  
+  /* Navbar personalizada */
+  .navbar-custom {
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Carrossel ajustado */
+  .carousel-item {
+    height: 500px;
+  }
+  
+  .carousel-item img {
+    object-fit: cover;
+    height: 100%;
+  }
+  
+  .carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    padding: 20px;
+  }
+  
+  /* Seções */
+  .section {
+    padding: 60px 0;
+  }
+  
+  .section-colored {
+    background-color: var(--light-color);
+  }
+  
+  /* Cards com sombra e hover */
+  .card {
+    transition: all 0.3s ease;
+    border: none;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-img-top {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 180px;
+    object-fit: cover;
+  }
+  
+  /* Ícones das idades */
+  .age-icon {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto 20px;
+    background-color: var(--primary-color);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Botões da página */
+  .btn-primary {
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+  }
+  
+  .btn-primary:hover {
+    background-color: #3367d6;
+    border-color: #3367d6;
+  }
+  
+  .btn-secondary {
+    background-color: var(--secondary-color);
+    border-color: var(--secondary-color);
+  }
+  
+  .btn-secondary:hover {
+    background-color: #2d9249;
+    border-color: #2d9249;
+  }
+  
+  /* Footer */
+  .footer {
+    background-color: var(--dark-color);
+    color: white;
+    padding: 40px 0;
+  }
+  
+  .footer a {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  
+  .footer a:hover {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Depoimentos */
+  .testimonial {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    position: relative;
+    padding: 0 20px;
+  }
+  
+  .testimonial-text:before,
+  .testimonial-text:after {
+    content: '"';
+    font-size: 2rem;
+    color: var(--accent-color);
+    position: absolute;
+  }
+  
+  .testimonial-text:before {
+    left: 0;
+    top: -10px;
+  }
+  
+  .testimonial-text:after {
+    right: 0;
+    bottom: -10px;
+  }
+  
+  /* Formulário de contato */
+  .contact-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Banner com contador */
+  .counter-section {
+    background-color: var(--primary-color);
+    color: white;
+    padding: 30px 0;
+  }
+  
+  .counter-box {
+    text-align: center;
+  }
+  
+  .counter-number {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0;
+  }
+  
+  .counter-text {
+    font-size: 1.1rem;
+    opacity: 0.9;
+  }
+  
+  /* Seção de metodologia */
+  .methodology-icon {
+    font-size: 3rem;
+    color: var(--primary-color);
+    margin-bottom: 15px;
+  }
+  
+  /* Animações */
+  @keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+  }
+  
+  .fade-in {
+    animation: fadeIn 1s ease-in;
+  }
